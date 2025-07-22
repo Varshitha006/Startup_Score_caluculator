@@ -25,7 +25,7 @@ def normalize_and_score(df, weights):
     return df
 
 # Loading the dataset
-df = pd.read_csv(r"C:\Users\varsh\OneDrive\Desktop\Startup_Scoring_Dataset.csv")
+df = pd.read_csv("Startup_Scoring_Dataset.csv")
 df = normalize_and_score(df, weights)
 
 # Streamlit app
